@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'MarkGEO-Regular';
+    src: url('./fonts/MarkGEO-Regular.eot?#iefix') format('embedded-opentype'),  
+    url('./fonts/MarkGEO-Regular.woff')
+    format('woff'), url('./fonts/MarkGEO-Regular.ttf')  format('truetype'), 
+    url('MarkGEO-Regular.svg#MarkGEO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'MarkGEOCAPSLight';
+      src: url('./fonts/MarkGEOCAPSLight.eot');
+      src: url('./fonts/MarkGEOCAPSLight.eot') format('embedded-opentype'),
+           url('./fonts/MarkGEOCAPSLight.woff2') format('woff2'),
+           url('./fonts/MarkGEOCAPSLight.woff') format('woff'),
+           url('./fonts/MarkGEOCAPSLight.ttf') format('truetype'),
+           url('./fonts/MarkGEOCAPSLight.svg#MarkGEOCAPSLight') format('svg');
+  }
+  
+  @font-face {
+      font-family: 'MarkGEOCAPSBold';
+      src: url('./fonts/MarkGEOCAPSBold.eot');
+      src: url('./fonts/MarkGEOCAPSBold.eot') format('embedded-opentype'),
+           url('./fonts/MarkGEOCAPSBold.woff2') format('woff2'),
+           url('./fonts/MarkGEOCAPSBold.woff') format('woff'),
+           url('./fonts/MarkGEOCAPSBold.ttf') format('truetype'),
+           url('./fonts/MarkGEOCAPSBold.svg#MarkGEOCAPSBold') format('svg');
+  }
+  @font-face {
+      font-family: 'MarkGEOBold';
+      src: url('./fonts/MarkGEOBold.eot');
+      src: url('./fonts/MarkGEOBold.eot') format('embedded-opentype'),
+           url('./fonts/MarkGEOBold.woff2') format('woff2'),
+           url('./fonts/MarkGEOBold.woff') format('woff'),
+           url('./fonts/MarkGEOBold.ttf') format('truetype'),
+           url('./fonts/MarkGEOBold.svg#MarkGEOBold') format('svg');
+  }
+  
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.logo-col {
+    background-color: #2c5895;
+    padding: 20px 0  25px;
+}
+.language-row {
+    border-bottom: 1px solid #466ca1;
+    justify-content: flex-end;
+    background-color: #2c5895;
+}
+.default {
+	color:gray;
+	cursor: pointer;
+}
+.active-color {
+	background-color: #34b0c2;
+	cursor:pointer;
+}
+.language-row a {
+    font-size: 11px;
+    color: #fff;
+    padding: 3px 20px;
+    font-family: 'MarkGEOCAPSBold';
+}
+.line {
+    height: 22px;
+    background: #6f8db6;
+    width:1px;
+}
+.language-row a:hover {
+    text-decoration: none;
+}
+.header-right-side {
+    background: #ebebeb;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}
+}
+
+
+
