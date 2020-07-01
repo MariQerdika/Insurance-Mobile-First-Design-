@@ -99,14 +99,113 @@ h1.logo {
     display: flex;
     justify-content: flex-end;
 }
+.top-line {
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 1199.98px){
+    .header-right-side .search {
+        margin-right: 15px;
+    }
+}
 
 
 @media (min-width: 1200px){
+.top-link.links {
+    padding-right: 12px;
+    display: inline-block;
+    position: relative;
+}
+.top-link.links::before{
+    content:"";
+    width: 1px;
+    height: 15px;
+    border-right: 1px solid grey;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+.top-link.contact {
+    padding-left: 4px;
+    display: inline-block;
+}
 .container {
     max-width: 1200px;
 }
 .header-right-side {
     background: #ebebeb;
+}
+.main_nav {
+    order: -1;
+}
+.right-container {
+    padding-right: 80px;
+
+}
+.logo-col{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-col {
+    padding: 25px 15px 20px;
+}
+.nav.main_nav {
+    margin-left: 45px;
+}
+.right-container {
+    width: 880px;
+    position: relative;
+}
+.search {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    padding: 10px 13px;
+    background: #36b6c9;
+}
+.top-line {
+    visibility: visible;
+    width: 880px;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    align-items: center;
+}
+.language-block .language {
+    font-family: 'MarkGEOBold';
+    font-size: 12px;
+    color: #fff;
+    background-color: #34b0c2;
+    display: inline-block;
+    padding:21px;
+    margin-left: 17px;
+    width: 70px;
+}
+.language-block .language:hover {
+    text-decoration: none;
+}
+.top-link {
+    font-size: 12px;
+    color: #333333;
+    font-family: 'MarkGEO-Regular';
+}
+.top-link:hover {
+    color: #333333;
+    text-decoration: none;
+}
+nav.main_nav {
+    height: 60px !important;
+    padding-top: 15px;
+}
+nav ul {
+    height: auto !important;
 }
 }
 
