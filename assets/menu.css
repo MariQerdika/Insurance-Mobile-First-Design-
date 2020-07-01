@@ -4,7 +4,6 @@
 nav.main_nav {
   height: 70px;
   position: relative;
-  margin-left: 25px;
 }
 nav ul {
   display: flex;
@@ -14,7 +13,7 @@ nav ul {
   margin: 0;
 }
  nav ul li  {
-  padding: 0 10px;
+  padding: 0 0 0 16px;
 }
  nav ul li a {
   color: #515050;
@@ -145,6 +144,7 @@ nav ul li a:hover {
   color:#fff;
   font-size: 36px;
   padding-bottom: 20px;
+
 }
 .menu_list li a:hover{
   color:#8b8ea2;
@@ -246,7 +246,10 @@ nav ul li a:hover {
       height: auto;
     }
     .logo {
-      width: 225px;
+      width: 260px;
+    }
+    .logo a {
+      font-size: 10px;
     }
    }
    @media (max-width: 360px) {
