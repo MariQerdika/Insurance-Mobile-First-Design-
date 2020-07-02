@@ -258,6 +258,9 @@ main {
         }
     }
     @media (min-width: 1200px){
+        header {
+            background: linear-gradient(to left, #ebebeb 50%, #2c5895 50%);
+        }
         .nav-block {
             height: 104px;
             padding:0;
