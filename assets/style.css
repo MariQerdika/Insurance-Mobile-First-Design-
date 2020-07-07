@@ -202,9 +202,17 @@ main {
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-
-
-
+.owl-slider {
+    background: #f4f6f7;
+}
+.owl-stage {
+    height: 165px;
+    display: flex;
+    align-items: center;
+}
+.owl-carousel .owl-item img {
+    width: auto !important;
+}
 
 @media (max-width: 1199.98px){
     .header-right-side .search {

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/menu.css">
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
   </head>
   <body>
@@ -116,12 +118,34 @@
       </div>
     </div>
   </div>
+  
+</div>
+
+<div class="container-fluid owl-slider">
+  <div class="container">
+  <div class="col-12">
+    <div class="row justify-content-between">
+     
+     <div class="owl-carousel" id="bottom_slider">
+      <div><img src="assets/images/aldagi.png"/></div>
+      <div><img src="assets/images/tbc-insurance.png"/></div>
+      <div><img src="assets/images/irao.png"/></div>
+      <div><img src="assets/images/kamara.png"/></div>
+      <div><img src="assets/images/unison.png"/></div>
+      <div><img src="assets/images/tbc-insurance.png"/></div>
+      <div><img src="assets/images/aldagi.png"/></div>
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>
 </main>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
  
    	<script>
 $(document).ready(function () {
@@ -139,6 +163,43 @@ $(document).ready(function(){
   $(this).removeClass().addClass('active-color').siblings().removeClass().addClass("default");
 })
 })
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:6,
+    loop:true,
+    margin:10,
+    boolean:true,
+    // autoplay:true,
+    // autoplayTimeout:3000,
+    responsiveClass:true,
+    nav: true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:true
+        },
+        1000:{
+            items:3,
+            nav:true,
+            
+        },
+        1200:{
+            items:6,
+            nav:true,
+            loop:false
+        }
+    }
+
+
+})
+
+
+
+
 	</script>
 
  
