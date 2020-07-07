@@ -1,118 +1,124 @@
 @font-face {
     font-family: 'MarkGEO-Regular';
-    src: url('./fonts/MarkGEO-Regular.eot?#iefix') format('embedded-opentype'),  
-    url('./fonts/MarkGEO-Regular.woff')
-    format('woff'), url('./fonts/MarkGEO-Regular.ttf')  format('truetype'), 
-    url('MarkGEO-Regular.svg#MarkGEO-Regular') format('svg');
+    src: url('./fonts/MarkGEO-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/MarkGEO-Regular.woff') format('woff'), url('./fonts/MarkGEO-Regular.ttf') format('truetype'), url('MarkGEO-Regular.svg#MarkGEO-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  @font-face {
-      font-family: 'MarkGEOCAPSLight';
-      src: url('./fonts/MarkGEOCAPSLight.eot');
-      src: url('./fonts/MarkGEOCAPSLight.eot') format('embedded-opentype'),
-           url('./fonts/MarkGEOCAPSLight.woff2') format('woff2'),
-           url('./fonts/MarkGEOCAPSLight.woff') format('woff'),
-           url('./fonts/MarkGEOCAPSLight.ttf') format('truetype'),
-           url('./fonts/MarkGEOCAPSLight.svg#MarkGEOCAPSLight') format('svg');
-  }
-  
-  @font-face {
-      font-family: 'MarkGEOCAPSBold';
-      src: url('./fonts/MarkGEOCAPSBold.eot');
-      src: url('./fonts/MarkGEOCAPSBold.eot') format('embedded-opentype'),
-           url('./fonts/MarkGEOCAPSBold.woff2') format('woff2'),
-           url('./fonts/MarkGEOCAPSBold.woff') format('woff'),
-           url('./fonts/MarkGEOCAPSBold.ttf') format('truetype'),
-           url('./fonts/MarkGEOCAPSBold.svg#MarkGEOCAPSBold') format('svg');
-  }
-  @font-face {
-      font-family: 'MarkGEOBold';
-      src: url('./fonts/MarkGEOBold.eot');
-      src: url('./fonts/MarkGEOBold.eot') format('embedded-opentype'),
-           url('./fonts/MarkGEOBold.woff2') format('woff2'),
-           url('./fonts/MarkGEOBold.woff') format('woff'),
-           url('./fonts/MarkGEOBold.ttf') format('truetype'),
-           url('./fonts/MarkGEOBold.svg#MarkGEOBold') format('svg');
-  }
-  
+}
+
+@font-face {
+    font-family: 'MarkGEOCAPSLight';
+    src: url('./fonts/MarkGEOCAPSLight.eot');
+    src: url('./fonts/MarkGEOCAPSLight.eot') format('embedded-opentype'), url('./fonts/MarkGEOCAPSLight.woff2') format('woff2'), url('./fonts/MarkGEOCAPSLight.woff') format('woff'), url('./fonts/MarkGEOCAPSLight.ttf') format('truetype'), url('./fonts/MarkGEOCAPSLight.svg#MarkGEOCAPSLight') format('svg');
+}
+
+@font-face {
+    font-family: 'MarkGEOCAPSBold';
+    src: url('./fonts/MarkGEOCAPSBold.eot');
+    src: url('./fonts/MarkGEOCAPSBold.eot') format('embedded-opentype'), url('./fonts/MarkGEOCAPSBold.woff2') format('woff2'), url('./fonts/MarkGEOCAPSBold.woff') format('woff'), url('./fonts/MarkGEOCAPSBold.ttf') format('truetype'), url('./fonts/MarkGEOCAPSBold.svg#MarkGEOCAPSBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MarkGEOBold';
+    src: url('./fonts/MarkGEOBold.eot');
+    src: url('./fonts/MarkGEOBold.eot') format('embedded-opentype'), url('./fonts/MarkGEOBold.woff2') format('woff2'), url('./fonts/MarkGEOBold.woff') format('woff'), url('./fonts/MarkGEOBold.ttf') format('truetype'), url('./fonts/MarkGEOBold.svg#MarkGEOBold') format('svg');
+}
+
 header {
     background-color: #2c5895;
 }
+
 .left {
     text-align: left;
 }
+
 .logo-col {
     background-color: #2c5895;
-    padding: 9px 15px  9px;
+    padding: 9px 15px 9px;
 }
+
 .language-row {
     border-bottom: 1px solid #466ca1;
     justify-content: flex-end;
     background-color: #2c5895;
 }
+
 .default {
-	color:gray;
-	cursor: pointer;
+    color: gray;
+    cursor: pointer;
 }
+
 .active-color {
-	background-color: #34b0c2;
-	cursor:pointer;
+    background-color: #34b0c2;
+    cursor: pointer;
 }
+
 .language-row a {
     font-size: 11px;
     color: #fff;
     padding: 3px 20px;
     font-family: 'MarkGEOCAPSBold';
 }
+
 .line {
     height: 22px;
     background: #6f8db6;
-    width:1px;
+    width: 1px;
 }
+
 .language-row a:hover {
     text-decoration: none;
 }
+
 .header-right-side {
     background: #2c5895;
 }
+
 .logo {
     width: 210px;
 }
-.logo a {
-    color: #fff;
-    font-family: 'MarkGEOCAPSLight';
-    font-size: 8px;
-    align-items: center;
-}
-.logo a:hover {
-    text-decoration: none;
-}
-.logo img {
-    width: 52px;
-    margin-right: 15px;
-    height: 52px;
-}
+
+    .logo a {
+        color: #fff;
+        font-family: 'MarkGEOCAPSLight';
+        font-size: 8px;
+        align-items: center;
+    }
+
+        .logo a:hover {
+            text-decoration: none;
+        }
+
+    .logo img {
+        width: 52px;
+        margin-right: 15px;
+        height: 52px;
+    }
+
 h1.logo {
     margin-bottom: 0;
 }
+
 .right-container {
     display: flex;
     justify-content: flex-end;
 }
+
 .top-line {
     display: none;
 }
+
 .header-centre {
     padding: 0;
 }
+
 .left-menu {
     order: 1;
 }
+
 .main-slider {
-    padding:0;
+    padding: 0;
 }
+
 .left-side-menu {
     background: #2a548e;
     border-top-left-radius: 5px;
@@ -124,6 +130,7 @@ h1.logo {
 main {
     background-color: #2c5895;
 }
+
 .nav-block {
     border-bottom: 1px solid #3d6295;
     display: flex;
@@ -131,135 +138,191 @@ main {
     text-align: center;
     justify-content: center;
 }
+
 .nav-block {
     font-size: 12px;
-    color:#fff;
+    color: #fff;
     font-family: 'MarkGEOCAPSLight';
     padding: 20px 22px;
     height: 170px;
 }
-.nav-block:hover {
-    text-decoration: none;
-    color:#fff;
-}
+
+    .nav-block:hover {
+        text-decoration: none;
+        color: #fff;
+        transition: all .3s;
+    }
+
 .first-item {
     background-image: url(./images/Insurers.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.first-item:hover {
-    background-image: url(./images/InsurersHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .first-item:hover {
+        background-image: url(./images/InsurersHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .second-item {
     background-image: url(./images/Schame.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.second-item:hover {
-    background-image: url(./images/SchameHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .second-item:hover {
+        background-image: url(./images/SchameHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .third-item {
     background-image: url(./images/Brokers.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.third-item:hover {
-    background-image: url(./images/BrokersHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .third-item:hover {
+        background-image: url(./images/BrokersHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .fourth-item {
     background-image: url(./images/UserPage.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.fourth-item:hover {
-    background-image: url(./images/UserPageHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .fourth-item:hover {
+        background-image: url(./images/UserPageHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .fifth-item {
     background-image: url(./images/Statistic.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.fifth-item:hover {
-    background-image: url(./images/StatisticHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .fifth-item:hover {
+        background-image: url(./images/StatisticHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .sixth-item {
     background-image: url(./images/PublicInfo.png);
     background-repeat: no-repeat;
     background-position: 50% 30%;
 }
-.sixth-item:hover {
-    background-image: url(./images/PublicInfoHover.png);
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-}
+
+    .sixth-item:hover {
+        background-image: url(./images/PublicInfoHover.png);
+        background-repeat: no-repeat;
+        background-position: 50% 30%;
+    }
+
 .owl-slider {
     background: #f4f6f7;
 }
+
 .owl-stage {
     height: 165px;
     display: flex;
     align-items: center;
 }
+
 .owl-carousel .owl-item img {
     width: auto !important;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
 }
+
 .bottom-footer {
-  background-color: #295188;
-  padding: 14px;
-  color: #fff;
+    background-color: #295188;
+    padding: 14px;
+    color: #fff;
 }
+
 .Copyright {
     font-size: 12px;
     font-family: 'MarkGEO-Regular';
 }
+
 .footer-r {
     font-family: 'MarkGEOCAPSLight';
     font-size: 12px;
 }
+
 .top-footer {
-    background:linear-gradient(to right, 
-      #fff 60% 74%, #2c5895 74%);
+    background: linear-gradient(to right, #fff 60% 74%, #2c5895 74%);
     padding: 40px 0 70px;
 }
+
 .contact-information {
     color: #2c5895;
     font-size: 22px;
     margin-bottom: 50px;
     font-family: 'MarkGEOCAPSBold';
 }
+
 .contact-header {
     font-size: 14px;
     font-family: 'MarkGEOCAPSBold';
     color: #2c5894;
     margin-bottom: 0;
 }
+.owl-slider .owl-nav {
+    position: static;
+}
+.owl-slider .owl-prev {
+    position: absolute !important;
+    top: 33% !important;
+    font-size: 42px !important;
+    color: #6f6f70 !important;
+}
+
+.owl-dots {
+    display: none;
+}
+.owl-carousel .owl-item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+:focus {
+    outline: none !important;
+}
+.owl-slider .owl-next {
+    position: absolute !important;
+    top: 33% !important;
+    font-size: 42px !important;
+    color: #6f6f70 !important;
+    right: 0;
+}
 .contact-block-first, .contact-block-second, .contact-block-third {
-padding-left: 60px;
+    padding-left: 60px !important;
+}
+address {
+    margin-bottom: 0;
 }
 .contact-block-first {
-background-image: url(./images/address-icon.png);
+    background-image: url(./images/address-icon.png);
     background-repeat: no-repeat;
 }
+
 .contact-block-second {
     background-image: url(./images/phone-icon.png);
-        background-repeat: no-repeat;
-    }
-    .contact-block-third {
-background-image: url(./images/mail-icon.png);
+    background-repeat: no-repeat;
+}
+
+.contact-block-third {
+    background-image: url(./images/mail-icon.png);
     background-repeat: no-repeat;
 }
 
@@ -267,7 +330,6 @@ background-image: url(./images/mail-icon.png);
     font-family: 'MarkGEO-Regular';
     font-size: 14px;
     color: #737374;
-   
 }
 
 
@@ -277,170 +339,197 @@ background-image: url(./images/mail-icon.png);
 
 
 
-@media (max-width: 1199.98px){
+@media (max-width: 1199.98px) {
     .header-right-side .search {
         margin-right: 30px;
     }
+
     .left-menu {
         background-color: #2a548e;
     }
-    .first-item, .second-item, .third-item, .forth-item, .fifth-item, .sixth-item{
+
+    .first-item, .second-item, .third-item, .forth-item, .fifth-item, .sixth-item {
         padding: 0;
     }
+
     .first-item, .third-item, .fifth-item {
         border-right: 1px solid #3d6295;
     }
+
     .first-item, .second-item {
         border-top: 1px solid #3d6295;
     }
-    
 }
 
 
 
-    @media (min-width: 1500px){
-        .main-slider {
-            width: 75vw !important;
-        }
+@media (min-width: 1500px) {
+    .main-slider {
+        width: 75vw !important;
     }
-        @media (min-width: 1600px){
-            .main-slider {
-                width: 73vw !important;
-            }
-        }
-@media (min-width: 1700px){
-            .main-slider {
-                width: 71vw !important;
-            }
-        }
-@media (min-width: 1900px){
-        .main-slider {
-            width: 69vw !important;
-        }
+}
+
+@media (min-width: 1600px) {
+    .main-slider {
+        width: 73vw !important;
     }
-    @media (min-width: 2200px){
-        .main-slider {
-            width: 66vw !important;
-        }
+}
+
+@media (min-width: 1700px) {
+    .main-slider {
+        width: 71vw !important;
     }
-    @media (min-width: 2400px){
-        .main-slider {
-            width: 65vw !important;
-        }
+}
+
+@media (min-width: 1900px) {
+    .main-slider {
+        width: 69vw !important;
     }
-    @media (min-width: 1200px){
-        header {
-            background: linear-gradient(to left, #ebebeb 50%, #2c5895 50%);
-        }
-        .nav-block {
-            height: 104px;
-            padding:0;
-        }
-        .main-slider {
-           
-            position: absolute;
-            right: 0;
-            width: 77vw;
-           
-        }
-    .left-menu  {
+}
+
+@media (min-width: 2200px) {
+    .main-slider {
+        width: 66vw !important;
+    }
+}
+
+@media (min-width: 2400px) {
+    .main-slider {
+        width: 65vw !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        background: linear-gradient(to left, #ebebeb 50%, #2c5895 50%);
+    }
+
+    .nav-block {
+        height: 104px;
+        padding: 0;
+    }
+
+    .main-slider {
+        position: absolute;
+        right: 0;
+        width: 77vw;
+    }
+
+    .left-menu {
         padding-right: 0;
     }
-.top-link.links {
-    padding-right: 12px;
-    display: inline-block;
-    position: relative;
-}
-.top-link.links::before{
-    content:"";
-    width: 1px;
-    height: 15px;
-    border-right: 1px solid grey;
-    transform: rotate(20deg);
-    position: absolute;
-    right: 0;
-    top: 2px;
-}
-.top-link.contact {
-    padding-left: 4px;
-    display: inline-block;
-}
-.container {
-    max-width: 1200px;
-}
-.header-right-side {
-    background: #ebebeb;
-    padding:0;
-}
-.main_nav {
-    order: -1;
-}
-.right-container {
-    padding-right: 100px;
 
-}
+    .top-link.links {
+        padding-right: 12px;
+        display: inline-block;
+        position: relative;
+    }
 
-.logo-col {
-    padding: 25px 15px 20px;
-}
-.nav.main_nav {
-    margin-left: 45px;
-}
-.right-container {
-    position: relative;
-}
-.search {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-    padding: 10px 13px;
-    background: #36b6c9;
-}
-.top-line {
-    visibility: visible;
-    display: flex;
-    justify-content: flex-end;
-    height: 60px;
-    align-items: center;
-}
-.language-block .language {
-    font-family: 'MarkGEOBold';
-    font-size: 12px;
-    color: #fff;
-    background-color: #34b0c2;
-    display: inline-block;
-    padding:21px;
-    margin-left: 25px;
-    width: 70px;
-}
-.language-block .language:hover {
-    text-decoration: none;
-}
-.top-link {
-    font-size: 12px;
-    color: #333333;
-    font-family: 'MarkGEO-Regular';
-}
-.top-link:hover {
-    color: #333333;
-    text-decoration: none;
-}
-nav.main_nav {
-    height: 60px !important;
-    padding-top: 15px;
-}
-nav ul {
-    height: auto !important;
-}
-.left-col {
-    background-color: #2c5895;
-}
-.right-col{ background-color: #ebebeb;
-}
-.left-menu {
-    order: 0;
-}
-}
+        .top-link.links::before {
+            content: "";
+            width: 1px;
+            height: 15px;
+            border-right: 1px solid grey;
+            transform: rotate(20deg);
+            position: absolute;
+            right: 0;
+            top: 2px;
+        }
 
+    .top-link.contact {
+        padding-left: 4px;
+        display: inline-block;
+    }
 
+    .container {
+        max-width: 1200px !important;
+    }
 
+    .header-right-side {
+        background: #ebebeb;
+        padding: 0;
+    }
+
+    .main_nav {
+        order: -1;
+    }
+
+    .right-container {
+        padding-right: 100px;
+    }
+
+    .logo-col {
+        padding: 25px 15px 20px;
+    }
+
+    .nav.main_nav {
+        margin-left: 45px;
+    }
+
+    .right-container {
+        position: relative;
+    }
+
+    .search {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        padding: 10px 13px;
+        background: #36b6c9;
+    }
+
+    .top-line {
+        visibility: visible;
+        display: flex;
+        justify-content: flex-end;
+        height: 60px;
+        align-items: center;
+    }
+
+    .language-block .language {
+        font-family: 'MarkGEOBold';
+        font-size: 12px;
+        color: #fff;
+        background-color: #34b0c2;
+        display: inline-block;
+        padding: 21px;
+        margin-left: 25px;
+        width: 70px;
+    }
+
+        .language-block .language:hover {
+            text-decoration: none;
+        }
+
+    .top-link {
+        font-size: 12px;
+        color: #333333;
+        font-family: 'MarkGEO-Regular';
+    }
+
+        .top-link:hover {
+            color: #333333;
+            text-decoration: none;
+        }
+
+    nav.main_nav {
+        height: 60px !important;
+        padding-top: 15px;
+    }
+
+    nav ul {
+        height: auto !important;
+    }
+
+    .left-col {
+        background-color: #2c5895;
+    }
+
+    .right-col {
+        background-color: #ebebeb;
+    }
+
+    .left-menu {
+        order: 0;
+    }
+}
