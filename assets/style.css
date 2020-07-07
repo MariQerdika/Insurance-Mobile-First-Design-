@@ -238,13 +238,37 @@ main {
 .contact-information {
     color: #2c5895;
     font-size: 22px;
+    margin-bottom: 50px;
     font-family: 'MarkGEOCAPSBold';
 }
+.contact-header {
+    font-size: 14px;
+    font-family: 'MarkGEOCAPSBold';
+    color: #2c5894;
+    margin-bottom: 0;
+}
+.contact-block-first, .contact-block-second, .contact-block-third {
+padding-left: 60px;
+}
+.contact-block-first {
+background-image: url(./images/address-icon.png);
+    background-repeat: no-repeat;
+}
+.contact-block-second {
+    background-image: url(./images/phone-icon.png);
+        background-repeat: no-repeat;
+    }
+    .contact-block-third {
+background-image: url(./images/mail-icon.png);
+    background-repeat: no-repeat;
+}
 
-
-
-
-
+.contact-line {
+    font-family: 'MarkGEO-Regular';
+    font-size: 14px;
+    color: #737374;
+   
+}
 
 
 
