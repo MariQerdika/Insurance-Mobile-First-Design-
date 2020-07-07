@@ -213,6 +213,45 @@ main {
 .owl-carousel .owl-item img {
     width: auto !important;
 }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-footer {
+  background-color: #295188;
+  padding: 14px;
+  color: #fff;
+}
+.Copyright {
+    font-size: 12px;
+    font-family: 'MarkGEO-Regular';
+}
+.footer-r {
+    font-family: 'MarkGEOCAPSLight';
+    font-size: 12px;
+}
+.top-footer {
+    background:linear-gradient(to right, 
+      #fff 60% 74%, #2c5895 74%);
+    padding: 40px 0 70px;
+}
+.contact-information {
+    color: #2c5895;
+    font-size: 22px;
+    font-family: 'MarkGEOCAPSBold';
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1199.98px){
     .header-right-side .search {
